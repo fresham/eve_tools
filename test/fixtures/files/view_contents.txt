@@ -1,0 +1,261 @@
+'Element' Kinetic Plating I	Armor Coating	12
+Upgraded Explosive Plating I	Armor Coating	14
+Limited Kinetic Plating I	Armor Coating	15
+'Scarab' Layered Plating I	Armor Coating	16
+'Spiegel' EM Plating I	Armor Coating	16
+Limited Layered Plating I	Armor Coating	16
+Limited Thermal Plating I	Armor Coating	16
+'Grail' Layered Plating I	Armor Coating	17
+'Contour' EM Plating I	Armor Coating	18
+Prototype Thermal Plating I	Armor Coating	18
+Upgraded Kinetic Plating I	Armor Coating	18
+Experimental Kinetic Plating I	Armor Coating	19
+Upgraded Adaptive Nano Plating I	Armor Coating	19
+Upgraded Thermal Plating I	Armor Coating	20
+Upgraded EM Plating I	Armor Coating	22
+'Collateral' Adaptive Nano Plating I	Armor Coating	23
+Experimental Explosive Plating I	Armor Coating	23
+Limited EM Plating I	Armor Coating	23
+Upgraded Layered Plating I	Armor Coating	23
+Experimental Thermal Plating I	Armor Coating	24
+Limited Explosive Plating I	Armor Coating	24
+Limited Adaptive Nano Plating I	Armor Coating	29
+'Refuge' Adaptive Nano Plating I	Armor Coating	5
+Limited Armor Explosive Hardener I	Armor Hardener	102
+Prototype Armor Thermal Hardener I	Armor Hardener	71
+Limited Armor Kinetic Hardener I	Armor Hardener	74
+Prototype Armor EM Hardener I	Armor Hardener	76
+Prototype Armor Kinetic Hardener I	Armor Hardener	76
+Experimental Armor EM Hardener I	Armor Hardener	77
+Experimental Armor Explosive Hardener I	Armor Hardener	77
+Prototype Armor Explosive Hardener I	Armor Hardener	77
+Upgraded Armor Explosive Hardener I	Armor Hardener	82
+Experimental Armor Thermal Hardener I	Armor Hardener	84
+Limited Armor Thermal Hardener I	Armor Hardener	84
+Upgraded Armor Thermal Hardener I	Armor Hardener	85
+Experimental Armor Kinetic Hardener I	Armor Hardener	86
+Upgraded Armor EM Hardener I	Armor Hardener	86
+Limited Armor EM Hardener I	Armor Hardener	95
+Upgraded Armor Kinetic Hardener I	Armor Hardener	98
+Limited Energized Thermal Membrane I	Armor Plating Energized	11
+Experimental Energized Armor Layering Membrane I	Armor Plating Energized	14
+Experimental Energized Explosive Membrane I	Armor Plating Energized	15
+Experimental Energized Kinetic Membrane I	Armor Plating Energized	15
+Limited Energized Kinetic Membrane I	Armor Plating Energized	15
+Upgraded Energized EM Membrane I	Armor Plating Energized	15
+Upgraded Energized Armor Layering Membrane I	Armor Plating Energized	16
+Limited Energized EM Membrane I	Armor Plating Energized	17
+Prototype Energized Adaptive Nano Membrane I	Armor Plating Energized	17
+Upgraded Energized Kinetic Membrane I	Armor Plating Energized	17
+Experimental Energized EM Membrane I	Armor Plating Energized	18
+Limited Energized Adaptive Nano Membrane I	Armor Plating Energized	18
+Limited Energized Armor Layering Membrane I	Armor Plating Energized	18
+Limited Energized Explosive Membrane I	Armor Plating Energized	18
+Prototype Energized Thermal Membrane I	Armor Plating Energized	18
+Experimental Energized Thermal Membrane I	Armor Plating Energized	19
+Upgraded Energized Explosive Membrane I	Armor Plating Energized	19
+Prototype Energized Explosive Membrane I	Armor Plating Energized	20
+Prototype Energized Kinetic Membrane I	Armor Plating Energized	20
+Experimental Energized Adaptive Nano Membrane I	Armor Plating Energized	22
+Upgraded Energized Thermal Membrane I	Armor Plating Energized	22
+Prototype Energized EM Membrane I	Armor Plating Energized	24
+Upgraded Energized Adaptive Nano Membrane I	Armor Plating Energized	24
+Prototype Energized Armor Layering Membrane I	Armor Plating Energized	30
+200mm Rolled Tungsten Compact Plates	Armor Reinforcer	10
+100mm Rolled Tungsten Compact Plates	Armor Reinforcer	11
+400mm Rolled Tungsten Compact Plates	Armor Reinforcer	14
+200mm Crystalline Carbonide Restrained Plates	Armor Reinforcer	22
+1600mm Rolled Tungsten Compact Plates	Armor Reinforcer	26
+1600mm Crystalline Carbonide Restrained Plates	Armor Reinforcer	34
+800mm Crystalline Carbonide Restrained Plates	Armor Reinforcer	46
+100mm Crystalline Carbonide Restrained Plates	Armor Reinforcer	6
+800mm Rolled Tungsten Compact Plates	Armor Reinforcer	93
+Medium 'Accommodation' Vestment Reconstructer I	Armor Repair Unit	10
+Large Inefficient Armor Repair Unit	Armor Repair Unit	125
+Large Automated Carapace Restoration	Armor Repair Unit	128
+Large 'Accommodation' Vestment Reconstructer I	Armor Repair Unit	129
+Small 'Accommodation' Vestment Reconstructer I	Armor Repair Unit	14
+Large I-a Polarized Armor Regenerator	Armor Repair Unit	165
+Medium Automated Carapace Restoration	Armor Repair Unit	20
+Small Inefficient Armor Repair Unit	Armor Repair Unit	20
+Medium Inefficient Armor Repair Unit	Armor Repair Unit	24
+Small Automated Carapace Restoration	Armor Repair Unit	24
+Small I-a Polarized Armor Regenerator	Armor Repair Unit	25
+Medium I-a Polarized Armor Regenerator	Armor Repair Unit	28
+Micro Auxiliary Power Core I	Auxiliary Power Core	7
+Ballistic Control System I	Ballistic Control system	1
+Cetus Scoped Burst Jammer	Burst Jammer	1
+Large Compact Pb-Acid Cap Battery	Capacitor Battery	21
+Heavy F-RX Prototype Capacitor Boost	Capacitor Booster	118
+Heavy Brief Capacitor Overcharge I	Capacitor Booster	138
+Heavy Tapered Capacitor Infusion I	Capacitor Booster	140
+Medium F-RX Prototype Capacitor Boost	Capacitor Booster	23
+Small F-RX Prototype Capacitor Boost	Capacitor Booster	23
+Small Tapered Capacitor Infusion I	Capacitor Booster	25
+Medium Tapered Capacitor Infusion I	Capacitor Booster	31
+Small Brief Capacitor Overcharge I	Capacitor Booster	37
+Medium Brief Capacitor Overcharge I	Capacitor Booster	39
+Heavy Electrochemical Capacitor Booster I	Capacitor Booster	5
+Capacitor Flux Coil I	Capacitor Flux Coil	4
+Type-E Enduring Cargo Scanner	Cargo Scanner	37
+Cargo Scanner I	Cargo Scanner	4
+Reinforced Metal Scraps	Commodities	33
+Metal Scraps	Commodities	6079
+Spatial Attunement Unit	Construction Components	333
+Inferno Cruise Missile	Cruise Missile	100
+Mjolnir Cruise Missile	Cruise Missile	100
+FFR Enduring Assault Damage Control	Damage Control	5
+Drone Navigation Computer I	Drone Navigation Computer	1
+Compulsive Scoped Multispectral ECM	ECM	1
+Multispectral ECM I	ECM	1
+Enfeebling Scoped Ladar ECM	ECM	71
+Halting Compact Ladar ECM	ECM	72
+Languid Enduring Ladar ECM	ECM	73
+Heavy Infectious Scoped Energy Neutralizer	Energy Neutralizer	60
+Heavy Gremlin Compact Energy Neutralizer	Energy Neutralizer	81
+Small Ghoul Compact Energy Nosferatu	Energy Nosferatu	1
+Heavy Ghoul Compact Energy Nosferatu	Energy Nosferatu	156
+Heavy Knave Scoped Energy Nosferatu	Energy Nosferatu	210
+Dual Anode Pulse Particle Stream I	Energy Weapon	1
+Focused Anode Medium Particle Stream I	Energy Weapon	1
+Focused Anode Pulse Particle Stream I	Energy Weapon	1
+Focused Modal Medium Laser I	Energy Weapon	1
+Focused Modal Pulse Laser I	Energy Weapon	1
+Focused Modulated Medium Energy Beam I	Energy Weapon	1
+Mega Anode Pulse Particle Stream I	Energy Weapon	1
+Dual Modal Light Laser I	Energy Weapon	10
+Heavy Modulated Pulse Energy Beam I	Energy Weapon	10
+Small Focused Modulated Energy Beam I	Energy Weapon	10
+Small Focused Anode Pulse Particle Stream I	Energy Weapon	11
+Dual Modulated Heavy Energy Beam I	Energy Weapon	12
+Heavy Modulated Energy Beam I	Energy Weapon	12
+Small Focused Anode Particle Stream I	Energy Weapon	12
+Mega Modulated Energy Beam I	Energy Weapon	13
+Dual Modal Heavy Laser I	Energy Weapon	15
+Heavy Anode Pulse Particle Stream I	Energy Weapon	16
+Dual Anode Heavy Particle Stream I	Energy Weapon	18
+Heavy Modal Pulse Laser I	Energy Weapon	20
+Small Focused Afocal Pulse Maser I	Energy Weapon	21
+Mega Modal Laser I	Energy Weapon	23
+Small Focused Modal Pulse Laser I	Energy Weapon	23
+Heavy Anode Particle Stream I	Energy Weapon	24
+Small Focused Afocal Maser I	Energy Weapon	24
+Heavy Modal Laser I	Energy Weapon	25
+Small Focused Modal Laser I	Energy Weapon	25
+Heavy Afocal Pulse Maser I	Energy Weapon	26
+Civilian Gatling Pulse Laser	Energy Weapon	3
+Dual Afocal Heavy Maser I	Energy Weapon	34
+Civilian Gatling Railgun	Energy Weapon	4
+Tachyon Modulated Energy Beam I	Energy Weapon	41
+Dual Modulated Light Energy Beam I	Energy Weapon	5
+Heavy Afocal Maser I	Energy Weapon	51
+Dual Heavy Modulated Pulse Energy Beam I	Energy Weapon	52
+Mega Modulated Pulse Energy Beam I	Energy Weapon	57
+Dual Heavy Modal Pulse Laser I	Energy Weapon	58
+Tachyon Anode Particle Stream I	Energy Weapon	58
+Dual Heavy Anode Pulse Particle Stream I	Energy Weapon	59
+Mega Anode Particle Stream I	Energy Weapon	66
+Dual Anode Light Particle Stream I	Energy Weapon	7
+Mega Modal Pulse Laser I	Energy Weapon	7
+Dual Heavy Afocal Pulse Maser I	Energy Weapon	71
+Tachyon Modal Laser I	Energy Weapon	73
+Mega Afocal Pulse Maser I	Energy Weapon	78
+Tachyon Afocal Maser I	Energy Weapon	79
+Small Focused Modulated Pulse Energy Beam I	Energy Weapon	8
+Mega Afocal Maser I	Energy Weapon	87
+Dual Afocal Light Maser I	Energy Weapon	9
+Standard S	Frequency Crystal	102
+Gamma S	Frequency Crystal	13
+Microwave S	Frequency Crystal	15
+Infrared S	Frequency Crystal	18
+Standard M	Frequency Crystal	258
+Infrared M	Frequency Crystal	39
+Microwave M	Frequency Crystal	43
+Gamma M	Frequency Crystal	48
+Standard L	Frequency Crystal	583
+Infrared L	Frequency Crystal	81
+Microwave L	Frequency Crystal	81
+Gamma L	Frequency Crystal	90
+Large 'Hope' Hull Reconstructor I	Hull Repair Unit	108
+Large I-b Polarized Structural Regenerator	Hull Repair Unit	112
+Large Automated Structural Restoration	Hull Repair Unit	128
+Large Inefficient Hull Repair Unit	Hull Repair Unit	144
+Medium Inefficient Hull Repair Unit	Hull Repair Unit	19
+Small I-b Polarized Structural Regenerator	Hull Repair Unit	19
+Small Inefficient Hull Repair Unit	Hull Repair Unit	19
+Medium 'Hope' Hull Reconstructor I	Hull Repair Unit	20
+Small Automated Structural Restoration	Hull Repair Unit	23
+Medium I-b Polarized Structural Regenerator	Hull Repair Unit	27
+Small 'Hope' Hull Reconstructor I	Hull Repair Unit	28
+Medium Automated Structural Restoration	Hull Repair Unit	30
+Enriched Clear Icicle	Ice	2
+Inertial Stabilizers I	Inertial Stabilizer	1
+EP-S Gaussian Scoped Mining Laser	Mining Laser	65
+Particle Bore Compact Mining Laser	Mining Laser	69
+Civilian Miner	Mining Laser	8
+TE-2100 Ample Light Missile Launcher	Missile Launcher Light	1
+'Malkuth' Rocket Launcher I	Missile Launcher Rocket	1
+Suppressed Targeting System I	Passive Targeting System	36
+Phased Plasma XL	Projectile Ammo	1710
+250mm Light Carbine Howitzer I	Projectile Weapon	1
+800mm Heavy Gallium Repeating Cannon	Projectile Weapon	1
+150mm Light AutoCannon I	Projectile Weapon	20
+200mm AutoCannon I	Projectile Weapon	30
+720mm Prototype Siege Cannon	Projectile Weapon	4
+Small I-ax Enduring Remote Armor Repairer	Remote Armor Repairer	19
+Large Solace Scoped Remote Armor Repairer	Remote Armor Repairer	2
+Small Solace Scoped Remote Armor Repairer	Remote Armor Repairer	25
+Small Coaxial Compact Remote Armor Repairer	Remote Armor Repairer	26
+Medium Coaxial Compact Remote Armor Repairer	Remote Armor Repairer	27
+Medium Solace Scoped Remote Armor Repairer	Remote Armor Repairer	28
+Medium I-ax Enduring Remote Armor Repairer	Remote Armor Repairer	36
+Large Partial E95c Remote Capacitor Transmitter	Remote Capacitor Transmitter	14
+Medium Partial E95b Remote Capacitor Transmitter	Remote Capacitor Transmitter	2
+Small Partial E95a Remote Capacitor Transmitter	Remote Capacitor Transmitter	2
+Large Murky Remote Capacitor Transmitter	Remote Capacitor Transmitter	20
+Large 'Regard' Remote Capacitor Transmitter	Remote Capacitor Transmitter	22
+Medium Murky Remote Capacitor Transmitter	Remote Capacitor Transmitter	3
+Large Asymmetric Remote Capacitor Transmitter	Remote Capacitor Transmitter	31
+Small Murky Remote Capacitor Transmitter	Remote Capacitor Transmitter	5
+Medium 'Regard' Remote Capacitor Transmitter	Remote Capacitor Transmitter	6
+Small Asymmetric Remote Capacitor Transmitter	Remote Capacitor Transmitter	6
+Medium Asymmetric Remote Capacitor Transmitter	Remote Capacitor Transmitter	8
+Large C5-L Emergency Shield Overload I	Shield Booster	1
+Large Neutron Saturation Injector I	Shield Booster	1
+X-Large Converse Deflection Catalyzer	Shield Booster	1
+X-Large Neutron Saturation Injector I	Shield Booster	1
+Small Neutron Saturation Injector I	Shield Booster	2
+Small Converse Deflection Catalyzer	Shield Booster	26
+Medium C5-L Emergency Shield Overload I	Shield Booster	35
+Adaptive Invulnerability Field I	Shield Hardener	1
+EM Ward Field I	Shield Hardener	1
+Limited Explosive Deflection Field I	Shield Hardener	1
+Limited Kinetic Deflection Field I	Shield Hardener	1
+Limited Adaptive Invulnerability Field I	Shield Hardener	4
+Limited Thermal Dissipation Field I	Shield Hardener	4
+Mark I Compact Shield Power Relay	Shield Power Relay	1
+M51 Benefactor Compact Shield Recharger	Shield Recharger	53
+Supplemental Explosive Deflection Amplifier	Shield Resistance Amplifier	1
+Upgraded EM Ward Amplifier I	Shield Resistance Amplifier	2
+Upgraded Kinetic Deflection Amplifier I	Shield Resistance Amplifier	3
+Upgraded Explosive Deflection Amplifier I	Shield Resistance Amplifier	38
+Upgraded Thermal Dissipation Amplifier I	Shield Resistance Amplifier	4
+Ta3 Compact Ship Scanner	Ship Scanner	14
+Medium 'Vehemence' Shockwave Charge	Smart Bomb	1
+Medium YF-12a Smartbomb	Smart Bomb	1
+Small 'Notos' Explosive Charge I	Smart Bomb	1
+Small 'Vehemence' Shockwave Charge	Smart Bomb	1
+Small YF-12a Smartbomb	Smart Bomb	1
+Large 'Notos' Explosive Charge I	Smart Bomb	11
+Large YF-12a Smartbomb	Smart Bomb	11
+Medium 'Notos' Explosive Charge I	Smart Bomb	2
+Small Rudimentary Concussion Bomb I	Smart Bomb	24
+Medium Rudimentary Concussion Bomb I	Smart Bomb	35
+Large Rudimentary Concussion Bomb I	Smart Bomb	422
+Large 'Vehemence' Shockwave Charge	Smart Bomb	6
+Heavy Karelin Scoped Stasis Grappler	Stasis Grappler	117
+Heavy Jigoro Enduring Stasis Grappler	Stasis Grappler	138
+Heavy Gunnar Compact Stasis Grappler	Stasis Grappler	144
+Fleeting Compact Stasis Webifier	Stasis Web	27
+X5 Enduring Stasis Webifier	Stasis Web	39
+ML-3 Scoped Survey Scanner	Survey Scanner	61

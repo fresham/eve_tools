@@ -1,0 +1,10 @@
+ True Sansha Kinetic Plating	1	Armor Coating	Module	
+ True Sansha Armor EM Hardener	1	Armor Hardener	Module	
+ Centum A-Type Energized Adaptive Nano Membrane	1	Armor Plating Energized	Module	
+ Centum A-Type Energized Explosive Membrane	1	Armor Plating Energized	Module	
+ Centum A-Type Energized Kinetic Membrane	1	Armor Plating Energized	Module	
+ Centum A-Type Medium Armor Repairer	1	Armor Repair Unit	Module	
+ Phantasm Blueprint	1	Cruiser Blueprint	Blueprint	BLUEPRINT COPY
+ Phantasm Blueprint	1	Cruiser Blueprint	Blueprint	BLUEPRINT COPY
+ True Sansha Focused Medium Pulse Laser	1	Energy Weapon	Module	
+ 19th Tier Overseer's Personal Effects	2	Overseer Personal Effects	Commodity	

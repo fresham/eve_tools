@@ -1,0 +1,261 @@
+Large Rudimentary Concussion Bomb I	422	Smart Bomb		High	21,100 m3	83,589,321.12 ISK
+Large I-a Polarized Armor Regenerator	165	Armor Repair Unit		Low	8,250 m3	3,132,742.80 ISK
+Large Inefficient Hull Repair Unit	144	Hull Repair Unit		Medium	7,200 m3	13,182,756.48 ISK
+Heavy Gunnar Compact Stasis Grappler	144	Stasis Grappler		Medium	7,200 m3	40,209,978.24 ISK
+Heavy Jigoro Enduring Stasis Grappler	138	Stasis Grappler		Medium	6,900 m3	36,312,385.74 ISK
+Large 'Accommodation' Vestment Reconstructer I	129	Armor Repair Unit		Low	6,450 m3	2,572,897.26 ISK
+Large Automated Structural Restoration	128	Hull Repair Unit		Medium	6,400 m3	11,399,280.64 ISK
+Large Automated Carapace Restoration	128	Armor Repair Unit		Low	6,400 m3	2,370,824.96 ISK
+Large Inefficient Armor Repair Unit	125	Armor Repair Unit		Low	6,250 m3	1,988,962.50 ISK
+Heavy Karelin Scoped Stasis Grappler	117	Stasis Grappler		Medium	5,850 m3	31,230,600.57 ISK
+Large I-b Polarized Structural Regenerator	112	Hull Repair Unit		Medium	5,600 m3	9,865,079.84 ISK
+Large 'Hope' Hull Reconstructor I	108	Hull Repair Unit		Medium	5,400 m3	9,532,923.48 ISK
+Heavy Tapered Capacitor Infusion I	140	Capacitor Booster		Medium	2,800 m3	4,908,076.60 ISK
+Heavy Brief Capacitor Overcharge I	138	Capacitor Booster		Medium	2,760 m3	5,523,476.22 ISK
+Heavy F-RX Prototype Capacitor Boost	118	Capacitor Booster		Medium	2,360 m3	4,490,868.78 ISK
+Enriched Clear Icicle	2	Ice			2,000 m3	330,535.46 ISK
+800mm Rolled Tungsten Compact Plates	93	Armor Reinforcer		Low	1,860 m3	26,059,755.99 ISK
+Mega Afocal Maser I	87	Energy Weapon	Large	High	1,740 m3	23,058,113.73 ISK
+Tachyon Afocal Maser I	79	Energy Weapon	Large	High	1,580 m3	24,658,535.44 ISK
+Mega Afocal Pulse Maser I	78	Energy Weapon	Large	High	1,560 m3	16,172,144.04 ISK
+Tachyon Modal Laser I	73	Energy Weapon	Large	High	1,460 m3	20,793,640.47 ISK
+Dual Heavy Afocal Pulse Maser I	71	Energy Weapon	Large	High	1,420 m3	3,836,979.16 ISK
+Mega Anode Particle Stream I	66	Energy Weapon	Large	High	1,320 m3	17,228,006.40 ISK
+Dual Heavy Anode Pulse Particle Stream I	59	Energy Weapon	Large	High	1,180 m3	3,779,681.01 ISK
+Tachyon Anode Particle Stream I	58	Energy Weapon	Large	High	1,160 m3	17,931,970.78 ISK
+Dual Heavy Modal Pulse Laser I	58	Energy Weapon	Large	High	1,160 m3	2,380,476.60 ISK
+Mega Modulated Pulse Energy Beam I	57	Energy Weapon	Large	High	1,140 m3	23,842,174.89 ISK
+Heavy Knave Scoped Energy Nosferatu	210	Energy Nosferatu		High	1,050 m3	18,455,978.10 ISK
+Dual Heavy Modulated Pulse Energy Beam I	52	Energy Weapon	Large	High	1,040 m3	2,674,988.16 ISK
+800mm Crystalline Carbonide Restrained Plates	46	Armor Reinforcer		Low	920 m3	12,226,272.38 ISK
+Tachyon Modulated Energy Beam I	41	Energy Weapon	Large	High	820 m3	21,546,071.54 ISK
+Heavy Ghoul Compact Energy Nosferatu	156	Energy Nosferatu		High	780 m3	16,293,416.88 ISK
+Dual Afocal Heavy Maser I	34	Energy Weapon	Large	High	680 m3	4,794,729.98 ISK
+1600mm Crystalline Carbonide Restrained Plates	34	Armor Reinforcer		Low	680 m3	15,506,498.66 ISK
+Standard L	583	Frequency Crystal	Large		583 m3	7,003,089.28 ISK
+Large YF-12a Smartbomb	11	Smart Bomb		High	550 m3	2,187,098.21 ISK
+Large 'Notos' Explosive Charge I	11	Smart Bomb		High	550 m3	2,181,628.35 ISK
+1600mm Rolled Tungsten Compact Plates	26	Armor Reinforcer		Low	520 m3	12,265,216.86 ISK
+Limited Armor Explosive Hardener I	102	Armor Hardener		Low	510 m3	14,202,194.40 ISK
+Heavy Afocal Maser I	51	Energy Weapon	Medium	High	510 m3	2,590,486.86 ISK
+Upgraded Armor Kinetic Hardener I	98	Armor Hardener		Low	490 m3	11,540,294.78 ISK
+Limited Armor EM Hardener I	95	Armor Hardener		Low	475 m3	7,524,665.00 ISK
+Mega Modal Laser I	23	Energy Weapon	Large	High	460 m3	6,008,628.33 ISK
+Upgraded Armor EM Hardener I	86	Armor Hardener		Low	430 m3	6,456,996.10 ISK
+Experimental Armor Kinetic Hardener I	86	Armor Hardener		Low	430 m3	11,165,669.82 ISK
+Upgraded Armor Thermal Hardener I	85	Armor Hardener		Low	425 m3	9,531,867.70 ISK
+Limited Armor Thermal Hardener I	84	Armor Hardener		Low	420 m3	9,330,073.20 ISK
+Experimental Armor Thermal Hardener I	84	Armor Hardener		Low	420 m3	8,421,594.72 ISK
+Upgraded Armor Explosive Hardener I	82	Armor Hardener		Low	410 m3	11,271,555.18 ISK
+Heavy Gremlin Compact Energy Neutralizer	81	Energy Neutralizer		High	405 m3	12,391,611.66 ISK
+Medium Brief Capacitor Overcharge I	39	Capacitor Booster		Medium	390 m3	48,917.31 ISK
+Prototype Armor Explosive Hardener I	77	Armor Hardener		Low	385 m3	9,797,034.17 ISK
+Experimental Armor Explosive Hardener I	77	Armor Hardener		Low	385 m3	9,336,798.24 ISK
+Experimental Armor EM Hardener I	77	Armor Hardener		Low	385 m3	6,630,419.18 ISK
+Prototype Armor Kinetic Hardener I	76	Armor Hardener		Low	380 m3	9,513,895.84 ISK
+Prototype Armor EM Hardener I	76	Armor Hardener		Low	380 m3	7,005,555.36 ISK
+Limited Armor Kinetic Hardener I	74	Armor Hardener		Low	370 m3	9,274,309.00 ISK
+Languid Enduring Ladar ECM	73	ECM		Medium	365 m3	556,276.79 ISK
+Medium I-ax Enduring Remote Armor Repairer	36	Remote Armor Repairer		High	360 m3	367,472.16 ISK
+Halting Compact Ladar ECM	72	ECM		Medium	360 m3	567,682.56 ISK
+Dual Anode Heavy Particle Stream I	18	Energy Weapon	Large	High	360 m3	2,610,662.22 ISK
+Prototype Armor Thermal Hardener I	71	Armor Hardener		Low	355 m3	8,195,679.10 ISK
+Enfeebling Scoped Ladar ECM	71	ECM		Medium	355 m3	4,274,550.03 ISK
+Medium Rudimentary Concussion Bomb I	35	Smart Bomb		High	350 m3	6,688,590.30 ISK
+Medium C5-L Emergency Shield Overload I	35	Shield Booster		Medium	350 m3	879,094.65 ISK
+Particle Bore Compact Mining Laser	69	Mining Laser		High	345 m3	31,312.20 ISK
+Spatial Attunement Unit	333	Construction Components			333 m3	4,854,407.40 ISK
+EP-S Gaussian Scoped Mining Laser	65	Mining Laser		High	325 m3	327,234.70 ISK
+Large Compact Pb-Acid Cap Battery	21	Capacitor Battery		Medium	315 m3	1,234,550.94 ISK
+Medium Tapered Capacitor Infusion I	31	Capacitor Booster		Medium	310 m3	31,393.08 ISK
+ML-3 Scoped Survey Scanner	61	Survey Scanner		Medium	305 m3	406,272.81 ISK
+Medium Automated Structural Restoration	30	Hull Repair Unit		Medium	300 m3	2,431,717.80 ISK
+Large 'Vehemence' Shockwave Charge	6	Smart Bomb		High	300 m3	1,475,492.34 ISK
+Heavy Infectious Scoped Energy Neutralizer	60	Energy Neutralizer		High	300 m3	7,028,959.20 ISK
+Dual Modal Heavy Laser I	15	Energy Weapon	Large	High	300 m3	2,310,123.30 ISK
+Medium Solace Scoped Remote Armor Repairer	28	Remote Armor Repairer		High	280 m3	633,663.80 ISK
+Medium I-a Polarized Armor Regenerator	28	Armor Repair Unit		Low	280 m3	336,031.64 ISK
+Medium I-b Polarized Structural Regenerator	27	Hull Repair Unit		Medium	270 m3	2,296,854.09 ISK
+Medium Coaxial Compact Remote Armor Repairer	27	Remote Armor Repairer		High	270 m3	502,991.37 ISK
+M51 Benefactor Compact Shield Recharger	53	Shield Recharger		Medium	265 m3	134,659.75 ISK
+Mega Modulated Energy Beam I	13	Energy Weapon	Large	High	260 m3	3,967,584.01 ISK
+Heavy Afocal Pulse Maser I	26	Energy Weapon	Medium	High	260 m3	752,252.80 ISK
+Standard M	258	Frequency Crystal	Medium		258 m3	958,165.56 ISK
+Heavy Modal Laser I	25	Energy Weapon	Medium	High	250 m3	1,144,389.25 ISK
+Medium Inefficient Armor Repair Unit	24	Armor Repair Unit		Low	240 m3	336,067.92 ISK
+Heavy Anode Particle Stream I	24	Energy Weapon	Medium	High	240 m3	1,032,030.24 ISK
+Dual Modulated Heavy Energy Beam I	12	Energy Weapon	Large	High	240 m3	1,859,310.96 ISK
+Medium F-RX Prototype Capacitor Boost	23	Capacitor Booster		Medium	230 m3	156,520.52 ISK
+200mm Crystalline Carbonide Restrained Plates	22	Armor Reinforcer		Low	220 m3	815,233.32 ISK
+Phased Plasma XL	1,710	Projectile Ammo	X-Large		213.75 m3	2,834,855.10 ISK
+Medium Automated Carapace Restoration	20	Armor Repair Unit		Low	200 m3	261,362.80 ISK
+Medium 'Hope' Hull Reconstructor I	20	Hull Repair Unit		Medium	200 m3	936,036.00 ISK
+Heavy Modal Pulse Laser I	20	Energy Weapon	Medium	High	200 m3	777,059.20 ISK
+X5 Enduring Stasis Webifier	39	Stasis Web		Medium	195 m3	1,134,029.13 ISK
+Upgraded Explosive Deflection Amplifier I	38	Shield Resistance Amplifier		Medium	190 m3	160,898.84 ISK
+Medium Inefficient Hull Repair Unit	19	Hull Repair Unit		Medium	190 m3	1,691,017.29 ISK
+Type-E Enduring Cargo Scanner	37	Cargo Scanner		Medium	185 m3	16,807.62 ISK
+Small Brief Capacitor Overcharge I	37	Capacitor Booster		Medium	185 m3	75,097.42 ISK
+Suppressed Targeting System I	36	Passive Targeting System		Medium	180 m3	4,149.72 ISK
+Heavy Anode Pulse Particle Stream I	16	Energy Weapon	Medium	High	160 m3	416,104.48 ISK
+Large Asymmetric Remote Capacitor Transmitter	31	Remote Capacitor Transmitter		High	155 m3	1,116,206.15 ISK
+Prototype Energized Armor Layering Membrane I	30	Armor Plating Energized		Low	150 m3	524,082.00 ISK
+200mm AutoCannon I	30	Projectile Weapon	Small	High	150 m3	582,249.90 ISK
+Limited Adaptive Nano Plating I	29	Armor Coating		Low	145 m3	18,581.17 ISK
+Small 'Hope' Hull Reconstructor I	28	Hull Repair Unit		Medium	140 m3	11,575.48 ISK
+Micro Auxiliary Power Core I	7	Auxiliary Power Core		Low	140 m3	1,221,101.91 ISK
+Mega Modal Pulse Laser I	7	Energy Weapon	Large	High	140 m3	948,371.06 ISK
+400mm Rolled Tungsten Compact Plates	14	Armor Reinforcer		Low	140 m3	1,736,280.28 ISK
+Fleeting Compact Stasis Webifier	27	Stasis Web		Medium	135 m3	3,182,917.68 ISK
+Small Converse Deflection Catalyzer	26	Shield Booster		Medium	130 m3	58,309.94 ISK
+Small Coaxial Compact Remote Armor Repairer	26	Remote Armor Repairer		High	130 m3	90,634.18 ISK
+Small Tapered Capacitor Infusion I	25	Capacitor Booster		Medium	125 m3	50,196.25 ISK
+Small Solace Scoped Remote Armor Repairer	25	Remote Armor Repairer		High	125 m3	99,907.00 ISK
+Small I-a Polarized Armor Regenerator	25	Armor Repair Unit		Low	125 m3	15,535.00 ISK
+Small Focused Modal Laser I	25	Energy Weapon	Small	High	125 m3	690,232.00 ISK
+Upgraded Energized Adaptive Nano Membrane I	24	Armor Plating Energized		Low	120 m3	1,880,667.84 ISK
+Small Rudimentary Concussion Bomb I	24	Smart Bomb		High	120 m3	32,274.72 ISK
+Small Focused Afocal Maser I	24	Energy Weapon	Small	High	120 m3	98,560.08 ISK
+Small Automated Carapace Restoration	24	Armor Repair Unit		Low	120 m3	55,279.20 ISK
+Prototype Energized EM Membrane I	24	Armor Plating Energized		Low	120 m3	600,266.40 ISK
+Limited Explosive Plating I	24	Armor Coating		Low	120 m3	17,940.48 ISK
+Heavy Modulated Energy Beam I	12	Energy Weapon	Medium	High	120 m3	6,369,031.56 ISK
+Experimental Thermal Plating I	24	Armor Coating		Low	120 m3	5,169.36 ISK
+Upgraded Layered Plating I	23	Armor Coating		Low	115 m3	180,197.18 ISK
+Small Focused Modal Pulse Laser I	23	Energy Weapon	Small	High	115 m3	378,319.41 ISK
+Small F-RX Prototype Capacitor Boost	23	Capacitor Booster		Medium	115 m3	106,436.64 ISK
+Small Automated Structural Restoration	23	Hull Repair Unit		Medium	115 m3	44,959.71 ISK
+Limited EM Plating I	23	Armor Coating		Low	115 m3	19,971.13 ISK
+Experimental Explosive Plating I	23	Armor Coating		Low	115 m3	25,329.21 ISK
+'Collateral' Adaptive Nano Plating I	23	Armor Coating		Low	115 m3	74,294.83 ISK
+Upgraded Energized Thermal Membrane I	22	Armor Plating Energized		Low	110 m3	662,207.04 ISK
+Upgraded EM Plating I	22	Armor Coating		Low	110 m3	82,502.86 ISK
+Large 'Regard' Remote Capacitor Transmitter	22	Remote Capacitor Transmitter		High	110 m3	3,023,013.40 ISK
+Experimental Energized Adaptive Nano Membrane I	22	Armor Plating Energized		Low	110 m3	1,833,118.32 ISK
+Small Focused Afocal Pulse Maser I	21	Energy Weapon	Small	High	105 m3	32,740.26 ISK
+Standard S	102	Frequency Crystal	Small		102 m3	61,900.74 ISK
+Upgraded Thermal Plating I	20	Armor Coating		Low	100 m3	3,192.60 ISK
+Small Inefficient Armor Repair Unit	20	Armor Repair Unit		Low	100 m3	53,125.60 ISK
+Prototype Energized Kinetic Membrane I	20	Armor Plating Energized		Low	100 m3	420,326.40 ISK
+Prototype Energized Explosive Membrane I	20	Armor Plating Energized		Low	100 m3	643,350.80 ISK
+Medium 'Accommodation' Vestment Reconstructer I	10	Armor Repair Unit		Low	100 m3	3,343,119.00 ISK
+Large Murky Remote Capacitor Transmitter	20	Remote Capacitor Transmitter		High	100 m3	723,923.20 ISK
+Heavy Modulated Pulse Energy Beam I	10	Energy Weapon	Medium	High	100 m3	3,120,748.90 ISK
+Heavy Electrochemical Capacitor Booster I	5	Capacitor Booster		Medium	100 m3	440,774.15 ISK
+200mm Rolled Tungsten Compact Plates	10	Armor Reinforcer		Low	100 m3	416,038.60 ISK
+150mm Light AutoCannon I	20	Projectile Weapon	Small	High	100 m3	158,243.00 ISK
+Upgraded Energized Explosive Membrane I	19	Armor Plating Energized		Low	95 m3	548,898.79 ISK
+Upgraded Adaptive Nano Plating I	19	Armor Coating		Low	95 m3	19,115.90 ISK
+Small Inefficient Hull Repair Unit	19	Hull Repair Unit		Medium	95 m3	10,971.17 ISK
+Small I-b Polarized Structural Regenerator	19	Hull Repair Unit		Medium	95 m3	27,303.57 ISK
+Small I-ax Enduring Remote Armor Repairer	19	Remote Armor Repairer		High	95 m3	86,250.88 ISK
+Experimental Kinetic Plating I	19	Armor Coating		Low	95 m3	9,944.60 ISK
+Experimental Energized Thermal Membrane I	19	Armor Plating Energized		Low	95 m3	476,360.78 ISK
+Upgraded Kinetic Plating I	18	Armor Coating		Low	90 m3	7,254.36 ISK
+Prototype Thermal Plating I	18	Armor Coating		Low	90 m3	370,913.22 ISK
+Prototype Energized Thermal Membrane I	18	Armor Plating Energized		Low	90 m3	172,122.66 ISK
+Limited Energized Explosive Membrane I	18	Armor Plating Energized		Low	90 m3	198,235.80 ISK
+Limited Energized Armor Layering Membrane I	18	Armor Plating Energized		Low	90 m3	271,943.10 ISK
+Limited Energized Adaptive Nano Membrane I	18	Armor Plating Energized		Low	90 m3	738,432.54 ISK
+Gamma L	90	Frequency Crystal	Large		90 m3	1,565,577.90 ISK
+Experimental Energized EM Membrane I	18	Armor Plating Energized		Low	90 m3	465,605.82 ISK
+'Contour' EM Plating I	18	Armor Coating		Low	90 m3	30,012.48 ISK
+Upgraded Energized Kinetic Membrane I	17	Armor Plating Energized		Low	85 m3	85,895.73 ISK
+Prototype Energized Adaptive Nano Membrane I	17	Armor Plating Energized		Low	85 m3	8,597,776.52 ISK
+Limited Energized EM Membrane I	17	Armor Plating Energized		Low	85 m3	374,055.76 ISK
+'Grail' Layered Plating I	17	Armor Coating		Low	85 m3	276,455.53 ISK
+Microwave L	81	Frequency Crystal	Large		81 m3	592,857.63 ISK
+Infrared L	81	Frequency Crystal	Large		81 m3	510,216.57 ISK
+Upgraded Energized Armor Layering Membrane I	16	Armor Plating Energized		Low	80 m3	401,763.04 ISK
+Limited Thermal Plating I	16	Armor Coating		Low	80 m3	20,317.92 ISK
+Limited Layered Plating I	16	Armor Coating		Low	80 m3	20,672.48 ISK
+'Spiegel' EM Plating I	16	Armor Coating		Low	80 m3	16,129.76 ISK
+'Scarab' Layered Plating I	16	Armor Coating		Low	80 m3	22,925.92 ISK
+Upgraded Energized EM Membrane I	15	Armor Plating Energized		Low	75 m3	375,216.15 ISK
+Limited Kinetic Plating I	15	Armor Coating		Low	75 m3	9,183.75 ISK
+Limited Energized Kinetic Membrane I	15	Armor Plating Energized		Low	75 m3	182,368.80 ISK
+Experimental Energized Kinetic Membrane I	15	Armor Plating Energized		Low	75 m3	375,180.75 ISK
+Experimental Energized Explosive Membrane I	15	Armor Plating Energized		Low	75 m3	375,773.55 ISK
+Upgraded Explosive Plating I	14	Armor Coating		Low	70 m3	18,330.62 ISK
+Ta3 Compact Ship Scanner	14	Ship Scanner		Medium	70 m3	43,624.70 ISK
+Small 'Accommodation' Vestment Reconstructer I	14	Armor Repair Unit		Low	70 m3	1,051,766.10 ISK
+Large Partial E95c Remote Capacitor Transmitter	14	Remote Capacitor Transmitter		High	70 m3	766,816.68 ISK
+Experimental Energized Armor Layering Membrane I	14	Armor Plating Energized		Low	70 m3	257,187.70 ISK
+Metal Scraps	6,079	Commodities			60.79 m3	7,396,136.93 ISK
+Small Focused Anode Particle Stream I	12	Energy Weapon	Small	High	60 m3	1,964,070.36 ISK
+'Element' Kinetic Plating I	12	Armor Coating		Low	60 m3	6,976.08 ISK
+Small Focused Anode Pulse Particle Stream I	11	Energy Weapon	Small	High	55 m3	1,149,447.20 ISK
+Limited Energized Thermal Membrane I	11	Armor Plating Energized		Low	55 m3	28,371.09 ISK
+100mm Rolled Tungsten Compact Plates	11	Armor Reinforcer		Low	55 m3	111,207.58 ISK
+X-Large Neutron Saturation Injector I	1	Shield Booster		Medium	50 m3	45,049.93 ISK
+X-Large Converse Deflection Catalyzer	1	Shield Booster		Medium	50 m3	45,100.41 ISK
+Small Focused Modulated Energy Beam I	10	Energy Weapon	Small	High	50 m3	11,699,717.40 ISK
+Large Solace Scoped Remote Armor Repairer	2	Remote Armor Repairer		High	50 m3	110,249.18 ISK
+Dual Modal Light Laser I	10	Energy Weapon	Small	High	50 m3	44,383.00 ISK
+Gamma M	48	Frequency Crystal	Medium		48 m3	158,327.52 ISK
+Dual Afocal Light Maser I	9	Energy Weapon	Small	High	45 m3	53,327.61 ISK
+Microwave M	43	Frequency Crystal	Medium		43 m3	74,995.87 ISK
+Small Focused Modulated Pulse Energy Beam I	8	Energy Weapon	Small	High	40 m3	3,965,396.08 ISK
+Medium Asymmetric Remote Capacitor Transmitter	8	Remote Capacitor Transmitter		High	40 m3	98,585.52 ISK
+Civilian Miner	8	Mining Laser		High	40 m3	209.20 ISK
+720mm Prototype Siege Cannon	4	Projectile Weapon	Medium	High	40 m3	789,206.20 ISK
+Infrared M	39	Frequency Crystal	Medium		39 m3	97,703.97 ISK
+Dual Anode Light Particle Stream I	7	Energy Weapon	Small	High	35 m3	807,594.41 ISK
+Small Asymmetric Remote Capacitor Transmitter	6	Remote Capacitor Transmitter		High	30 m3	10,838.64 ISK
+Medium 'Regard' Remote Capacitor Transmitter	6	Remote Capacitor Transmitter		High	30 m3	1,529,704.92 ISK
+100mm Crystalline Carbonide Restrained Plates	6	Armor Reinforcer		Low	30 m3	54,056.16 ISK
+Small Murky Remote Capacitor Transmitter	5	Remote Capacitor Transmitter		High	25 m3	8,756.50 ISK
+Large Neutron Saturation Injector I	1	Shield Booster		Medium	25 m3	10,674.39 ISK
+Large C5-L Emergency Shield Overload I	1	Shield Booster		Medium	25 m3	29,483.55 ISK
+FFR Enduring Assault Damage Control	5	Damage Control		Low	25 m3	196,958.20 ISK
+Dual Modulated Light Energy Beam I	5	Energy Weapon	Small	High	25 m3	2,068,330.30 ISK
+Drone Navigation Computer I	1	Drone Navigation Computer		Medium	25 m3	150,328.66 ISK
+'Refuge' Adaptive Nano Plating I	5	Armor Coating		Low	25 m3	2,001,607.20 ISK
+Upgraded Thermal Dissipation Amplifier I	4	Shield Resistance Amplifier		Medium	20 m3	37,918.16 ISK
+Mega Anode Pulse Particle Stream I	1	Energy Weapon	Large	High	20 m3	937,776.95 ISK
+Medium 'Notos' Explosive Charge I	2	Smart Bomb		High	20 m3	379,021.72 ISK
+Limited Thermal Dissipation Field I	4	Shield Hardener		Medium	20 m3	46,800.36 ISK
+Limited Adaptive Invulnerability Field I	4	Shield Hardener		Medium	20 m3	1,702,654.32 ISK
+EM Ward Field I	1	Shield Hardener		Medium	20 m3	81,726.08 ISK
+Civilian Gatling Railgun	4	Energy Weapon		High	20 m3	
+Cargo Scanner I	4	Cargo Scanner		Medium	20 m3	53,375.28 ISK
+Capacitor Flux Coil I	4	Capacitor Flux Coil		Low	20 m3	38,427.68 ISK
+Adaptive Invulnerability Field I	1	Shield Hardener		Medium	20 m3	81,250.06 ISK
+800mm Heavy Gallium Repeating Cannon	1	Projectile Weapon	Large	High	20 m3	185,962.48 ISK
+Infrared S	18	Frequency Crystal	Small		18 m3	3,529.26 ISK
+Upgraded Kinetic Deflection Amplifier I	3	Shield Resistance Amplifier		Medium	15 m3	88,426.41 ISK
+Microwave S	15	Frequency Crystal	Small		15 m3	15,083.55 ISK
+Medium Murky Remote Capacitor Transmitter	3	Remote Capacitor Transmitter		High	15 m3	34,011.03 ISK
+Civilian Gatling Pulse Laser	3	Energy Weapon		High	15 m3	
+Gamma S	13	Frequency Crystal	Small		13 m3	17,653.48 ISK
+Upgraded EM Ward Amplifier I	2	Shield Resistance Amplifier		Medium	10 m3	139,285.98 ISK
+Small Partial E95a Remote Capacitor Transmitter	2	Remote Capacitor Transmitter		High	10 m3	3,434.22 ISK
+Small Neutron Saturation Injector I	2	Shield Booster		Medium	10 m3	8,679.26 ISK
+Medium YF-12a Smartbomb	1	Smart Bomb		High	10 m3	199,511.56 ISK
+Medium Partial E95b Remote Capacitor Transmitter	2	Remote Capacitor Transmitter		High	10 m3	15,043.94 ISK
+Medium 'Vehemence' Shockwave Charge	1	Smart Bomb		High	10 m3	212,130.89 ISK
+Focused Modulated Medium Energy Beam I	1	Energy Weapon	Medium	High	10 m3	2,609,911.68 ISK
+Focused Modal Pulse Laser I	1	Energy Weapon	Medium	High	10 m3	155,159.52 ISK
+Focused Modal Medium Laser I	1	Energy Weapon	Medium	High	10 m3	43,966.07 ISK
+Focused Anode Pulse Particle Stream I	1	Energy Weapon	Medium	High	10 m3	1,387,839.12 ISK
+Focused Anode Medium Particle Stream I	1	Energy Weapon	Medium	High	10 m3	403,956.12 ISK
+TE-2100 Ample Light Missile Launcher	1	Missile Launcher Light		High	5 m3	90,590.57 ISK
+Supplemental Explosive Deflection Amplifier	1	Shield Resistance Amplifier		Medium	5 m3	2,215,449.63 ISK
+Small YF-12a Smartbomb	1	Smart Bomb		High	5 m3	3,404.25 ISK
+Small Ghoul Compact Energy Nosferatu	1	Energy Nosferatu		High	5 m3	12,643.87 ISK
+Small 'Vehemence' Shockwave Charge	1	Smart Bomb		High	5 m3	28,960.66 ISK
+Small 'Notos' Explosive Charge I	1	Smart Bomb		High	5 m3	3,835.13 ISK
+Multispectral ECM I	1	ECM		Medium	5 m3	14,747.46 ISK
+Mjolnir Cruise Missile	100	Cruise Missile			5 m3	25,519.00 ISK
+Mark I Compact Shield Power Relay	1	Shield Power Relay		Low	5 m3	19,811.26 ISK
+Limited Kinetic Deflection Field I	1	Shield Hardener		Medium	5 m3	4,229.51 ISK
+Limited Explosive Deflection Field I	1	Shield Hardener		Medium	5 m3	12,037.71 ISK
+Inferno Cruise Missile	100	Cruise Missile			5 m3	17,258.00 ISK
+Inertial Stabilizers I	1	Inertial Stabilizer		Low	5 m3	12,276.05 ISK
+Dual Anode Pulse Particle Stream I	1	Energy Weapon	Small	High	5 m3	15,597.75 ISK
+Compulsive Scoped Multispectral ECM	1	ECM		Medium	5 m3	6,627.19 ISK
+Cetus Scoped Burst Jammer	1	Burst Jammer		Medium	5 m3	5,626.22 ISK
+Ballistic Control System I	1	Ballistic Control system		Low	5 m3	55,892.67 ISK
+250mm Light Carbine Howitzer I	1	Projectile Weapon	Small	High	5 m3	85,311.15 ISK
+'Malkuth' Rocket Launcher I	1	Missile Launcher Rocket		High	5 m3	7,004.47 ISK
+Reinforced Metal Scraps	33	Commodities			0.33 m3	222,454.65 ISK

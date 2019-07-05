@@ -1,0 +1,46 @@
+Calm Dark Filament	2	Abyssal Filaments	Commodity	
+Calm Electrical Filament	3	Abyssal Filaments	Commodity	
+Calm Exotic Filament	3	Abyssal Filaments	Commodity	
+Calm Firestorm Filament	1	Abyssal Filaments	Commodity	
+Calm Gamma Filament	1	Abyssal Filaments	Commodity	
+Metal Scraps	9	Commodities	Commodity	
+Spatial Attunement Unit	17	Construction Components	Commodity	
+Datacore - Amarrian Starship Engineering	21	Datacores	Commodity	
+Datacore - High Energy Physics	49	Datacores	Commodity	
+Datacore - Hydromagnetic Physics	12	Datacores	Commodity	
+Datacore - Laser Physics	59	Datacores	Commodity	
+Datacore - Mechanical Engineering	39	Datacores	Commodity	
+Datacore - Molecular Engineering	21	Datacores	Commodity	
+Datacore - Nanite Engineering	17	Datacores	Commodity	
+Datacore - Quantum Physics	26	Datacores	Commodity	
+Carbon	37	General	Commodity	
+Accelerant Decryptor	6	Generic Decryptor	Decryptors	
+Attainment Decryptor	1	Generic Decryptor	Decryptors	
+Augmentation Decryptor	7	Generic Decryptor	Decryptors	
+Optimized Augmentation Decryptor	1	Generic Decryptor	Decryptors	
+Parity Decryptor	5	Generic Decryptor	Decryptors	
+Process Decryptor	2	Generic Decryptor	Decryptors	
+Analog Panel	148	Materials and Compounds	Commodity	
+Auxiliary Parts	111	Materials and Compounds	Commodity	
+Elemental Crux	84	Materials and Compounds	Commodity	
+Force Cable	481	Materials and Compounds	Commodity	
+High-Tech Data Chip	2	Miscellaneous	Commodity	
+High-Tech Scanner	1	Miscellaneous	Commodity	
+Armor Plates	410	Salvaged Materials	Material	
+Artificial Neural Network	56	Salvaged Materials	Material	
+Burned Logic Circuit	293	Salvaged Materials	Material	
+Charred Micro Circuit	384	Salvaged Materials	Material	
+Contaminated Nanite Compound	600	Salvaged Materials	Material	
+Current Pump	27	Salvaged Materials	Material	
+Damaged Artificial Neural Network	333	Salvaged Materials	Material	
+Defective Current Pump	454	Salvaged Materials	Material	
+Fried Interface Circuit	464	Salvaged Materials	Material	
+Intact Armor Plates	41	Salvaged Materials	Material	
+Interface Circuit	54	Salvaged Materials	Material	
+Logic Circuit	98	Salvaged Materials	Material	
+Micro Circuit	103	Salvaged Materials	Material	
+Nanite Compound	82	Salvaged Materials	Material	
+Power Circuit	56	Salvaged Materials	Material	
+Tripped Power Circuit	630	Salvaged Materials	Material	
+Amarr Encryption Methods	1	Science	Skill	
+High Energy Physics	1	Science	Skill	
