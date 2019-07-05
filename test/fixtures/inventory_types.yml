@@ -1,11 +1,16 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-# This model initially had no columns defined. If you add columns to the
-# model remove the '{}' from the fixture names and add the columns immediately
-# below each fixture, per the syntax in the comments below
-#
-one: {}
-# column: value
-#
-two: {}
-# column: value
+large_rudimentary_concussion_bomb_i:
+  typeID: 9668
+  groupID: 72
+  typeName: Large Rudimentary Concussion Bomb I
+  description: Radiates an omnidirectional pulse from the ship that causes kinetic damage to surrounding vessels.
+  mass: 100.0
+  volume: 50.0
+  capacity: 0.0
+  portionSize: 1
+  raceID: 2
+  basePrice:
+  published: true
+  marketGroupID: 381
+  iconID: 112
+  soundID:
+  graphicID: 2033
