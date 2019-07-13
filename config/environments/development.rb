@@ -58,4 +58,8 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+
+  config.x.eve_sso.host = 'login.eveonline.com'
+  config.x.eve_sso.scopes = %w[esi-markets.structure_markets.v1]
+  config.x.eve_sso.callback_url = 'http://localhost:3000/authenticate'
 end

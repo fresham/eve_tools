@@ -91,4 +91,8 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  config.x.eve_sso.host = 'login.eveonline.com'
+  config.x.eve_sso.scopes = %w[esi-markets.structure_markets.v1]
+  config.x.eve_sso.callback_url = 'http://localhost:3000/authenticate'
 end

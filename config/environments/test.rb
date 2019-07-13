@@ -43,4 +43,8 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  config.x.eve_sso.host = 'sisilogin.testeveonline.com'
+  config.x.eve_sso.scopes = %w[esi-markets.structure_markets.v1]
+  config.x.eve_sso.callback_url = 'http://localhost:3000/authenticate'
 end
