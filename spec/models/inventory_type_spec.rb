@@ -5,7 +5,7 @@ RSpec.describe InventoryType, type: :model do
   fixtures :inventory_type_materials
 
   it 'uses the `invTypes` table' do
-    expect(InventoryType.table_name).to eq('invTypes')
+    expect(described_class.table_name).to eq('invTypes')
   end
 
   it 'gives reprocessing yield for Large Rudimentary Concussion Bomb I' do

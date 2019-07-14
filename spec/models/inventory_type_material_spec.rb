@@ -2,6 +2,6 @@ require 'rails_helper'
 
 RSpec.describe InventoryTypeMaterial, type: :model do
   it 'uses invTypeMaterials table' do
-    assert_equal 'invTypeMaterials', InventoryTypeMaterial.table_name
+    expect(described_class.table_name).to eq('invTypeMaterials')
   end
 end
