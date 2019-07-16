@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2019_07_16_154337) do
 
   create_table "agtAgentTypes", primary_key: "agentTypeID", force: :cascade do |t|
     t.string "agentType", limit: 50
@@ -246,6 +246,12 @@ ActiveRecord::Schema.define(version: 0) do
     t.boolean "isDefault"
   end
 
+  create_table "doctrines", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "eveGraphics", primary_key: "graphicID", force: :cascade do |t|
     t.string "sofFactionName", limit: 100
     t.string "graphicFile", limit: 100
@@ -263,6 +269,25 @@ ActiveRecord::Schema.define(version: 0) do
     t.string "unitName", limit: 100
     t.string "displayName", limit: 50
     t.string "description", limit: 1000
+  end
+
+  create_table "fitting_items", force: :cascade do |t|
+    t.integer "inventory_type_id"
+    t.integer "fitting_id"
+    t.integer "quantity"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["fitting_id"], name: "index_fitting_items_on_fitting_id"
+    t.index ["inventory_type_id"], name: "index_fitting_items_on_inventory_type_id"
+  end
+
+  create_table "fittings", force: :cascade do |t|
+    t.string "name"
+    t.text "original_text"
+    t.integer "doctrine_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["doctrine_id"], name: "index_fittings_on_doctrine_id"
   end
 
   create_table "industryActivity", primary_key: ["typeID", "activityID"], force: :cascade do |t|
