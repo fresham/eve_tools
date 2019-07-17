@@ -13,4 +13,13 @@ FactoryBot.define do
   factory :group do
     groupName { 'Sensor Booster' }
   end
+
+  factory :doctrine do
+    name { 'Entosis' }
+  end
+
+  factory :fitting do
+    name { 'Tristan' }
+    doctrine
+  end
 end
