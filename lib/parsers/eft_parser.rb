@@ -25,7 +25,7 @@ module Parsers
     def self.parse_line(line)
       items = {}
 
-      if line_match = line.match(/^(.*?)\s+x(\d+)$/)
+      if line_match = line.strip.match(/^(.*?)\s+x(\d+)$/)
         items[line_match[1]] = Integer(line_match[2])
       else
         items[line.strip] = 1

@@ -30,6 +30,33 @@ RSpec.describe Parsers::EftParser do
           'Strontium Clathrates' => 35
         )
       end
+
+      context 'with carriage return line endings' do
+        let(:fitting_text) { file_fixture('eft_fittings/tristan.txt').read.gsub("\n", "\r\n") }
+
+        it 'returns a list of items in the fit with quantity' do
+          expect(subject[:name]).to eq('Full Fit')
+          expect(subject[:items]).to include(
+            'Tristan' => 1,
+            'Drone Damage Amplifier II' => 1,
+            'Overdrive Injector System II' => 1,
+            'Micro Auxiliary Power Core I' => 1,
+            '5MN Y-T8 Compact Microwarpdrive' => 1,
+            'Adaptive Invulnerability Field II' => 1,
+            'Medium Shield Extender II' => 1,
+            'Entosis Link I' => 1,
+            '75mm Gatling Rail II' => 2,
+            'Small Core Defense Field Extender I' => 2,
+            'Small Polycarbon Engine Housing I' => 1,
+            'Hornet EC-300' => 3,
+            'Warrior II' => 5,
+            "Eifyr and Co. 'Rogue' Navigation NN-601" => 1,
+            'Standard Frentix Booster' => 1,
+            'Caldari Navy Lead Charge S' => 400,
+            'Strontium Clathrates' => 35
+          )
+        end
+      end
     end
 
     context 'when given an unfit ship fitting' do
