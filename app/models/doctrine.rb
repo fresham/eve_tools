@@ -1,3 +1,3 @@
 class Doctrine < ApplicationRecord
-  has_many :fittings
+  has_many :fittings, dependent: :destroy
 end

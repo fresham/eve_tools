@@ -3,7 +3,7 @@ class CreateFittings < ActiveRecord::Migration[5.2]
     create_table :fittings do |t|
       t.string :name
       t.text :original_text
-      t.references :doctrine, foreign_key: true
+      t.references :doctrine, foreign_key: true, on_delete: :nullify
 
       t.timestamps
     end
