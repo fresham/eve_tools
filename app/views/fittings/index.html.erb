@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Fittings</h1>
+
+<table class="fittings">
+  <tbody>
+    <% @doctrines.each do |doctrine| %>
+      <tr><th><%= doctrine.name %></th></tr>
+
+      <% doctrine.fittings.each do |fitting| %>
+        <tr>
+          <td><%= link_to fitting.name, fitting %></td>
+        </tr>
+      <% end %>
+    <% end %>
+
+    <% if @miscellaneous_fittings.present? %>
+      <tr><th>Miscellaneous Fittings</th></tr>
+
+      <% @miscellaneous_fittings.each do |fitting| %>
+        <tr>
+          <td><%= link_to fitting.name, fitting %></td>
+        </tr>
+      <% end %>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Fitting', new_fitting_path %>

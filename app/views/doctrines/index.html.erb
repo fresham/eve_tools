@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Doctrines</h1>
+
+<table>
+  <tbody>
+    <% @doctrines.each do |doctrine| %>
+      <tr>
+        <td><%= link_to doctrine.name, doctrine %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Doctrine', new_doctrine_path %>

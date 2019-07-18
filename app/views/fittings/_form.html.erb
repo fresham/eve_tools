@@ -1,0 +1,23 @@
+<%= form_with(model: fitting, local: true) do |form| %>
+  <% if fitting.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(fitting.errors.count, "error") %> prohibited this fitting from being saved:</h2>
+
+      <ul>
+      <% fitting.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <%= form.label :doctrine_id, 'Doctrine' %>
+  <%= form.select :doctrine_id, @doctrines.pluck(:name, :id), include_blank: true %>
+
+  <%= form.label :original_text, 'Fitting Text (EFT)' %>
+  <%= form.text_area :original_text, rows: 30, cols: 60 %>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

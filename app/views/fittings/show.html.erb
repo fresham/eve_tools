@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= @fitting.name %></h1>
+
+<% if @fitting.doctrine.present? %>
+  <h2 class="subtitle"><%= link_to @fitting.doctrine.name, @fitting.doctrine %></h2>
+<% end %>
+
+<pre><%= @fitting.original_text %></pre>
+
+<div class="links">
+  <%= link_to 'Edit', edit_fitting_path(@fitting) %> |
+  <%= link_to 'Destroy', @doctrine, method: :delete, data: { confirm: 'Are you sure?' } %> |
+  <%= link_to 'Back to Fittings', fittings_path %>
+</div>

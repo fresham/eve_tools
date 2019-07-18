@@ -1,0 +1,74 @@
+$accent: dodgerblue;
+
+* {
+  font-family: Arial;
+}
+
+pre {
+  font-family: Courier New;
+  font-size: 0.8rem;
+  background-color: darken(#fff, 3%);
+  display: inline-block;
+  margin: 0;
+  padding: 1.5rem 4rem 1.5rem 1rem;
+  box-shadow: inset 0 0 0.25rem #666;
+}
+
+textarea {
+  font-size: 0.8rem;
+}
+
+a, a:visited {
+  color: $accent;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  margin: 1rem 0;
+}
+
+.subtitle {
+  font-weight: normal;
+  font-size: 1.25rem;
+  margin-top: 0;
+}
+
+table.fittings {
+  margin-bottom: 2rem;
+
+  tr:first-child > th {
+    padding-top: 0;
+  }
+
+  th {
+    text-align: left;
+    padding-top: 2rem;
+  }
+}
+
+form {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-top: 0.5em;
+}
+
+.actions {
+  margin-top: 1rem;
+}
+
+.links {
+  margin-top: 1rem;
+  clear: both;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
