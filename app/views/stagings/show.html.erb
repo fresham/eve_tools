@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<h1><%= @staging.name %></h1>
+
+<table class="staged-fittings">
+  <thead>
+    <tr>
+      <th>Fitting</th>
+      <th>Target</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @staging.staged_fittings.each do |staged_fitting| %>
+      <tr>
+        <td><%= link_to staged_fitting.fitting.name, staged_fitting.fitting, target: '_blank' %></td>
+        <td><%= staged_fitting.target_quantity %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to 'Edit', edit_staging_path(@staging) %> |
+<%= link_to 'Destroy', @staging, method: :delete, data: { confirm: 'Are you sure?' } %> |
+<%= link_to 'Back to Staging List', stagings_path %>

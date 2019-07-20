@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Stagings</h1>
+
+<table>
+  <tbody>
+    <% @stagings.each do |staging| %>
+      <tr>
+        <td><%= link_to staging.name, staging %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Staging', new_staging_path %> |
+<%= link_to 'Back', root_path %>

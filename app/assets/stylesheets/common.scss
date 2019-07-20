@@ -50,6 +50,37 @@ table.fittings {
   }
 }
 
+table.staged-fittings {
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+
+  th {
+    text-align: left;
+    padding: 0.5rem;
+    text-decoration: underline;
+    font-weight: normal;
+  }
+
+  td {
+    padding: 0.5rem;
+
+    &:first-child {
+      padding-right: 1rem;
+    }
+
+    &:last-child {
+      text-align: right;
+      input {
+        text-align: right;
+      }
+    }
+
+    &.add-staged-fitting:last-child {
+      text-align: left;
+    }
+  }
+}
+
 form {
   margin-bottom: 1rem;
 }
@@ -57,6 +88,16 @@ form {
 label {
   display: block;
   margin-top: 0.5em;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.staged-fitting-quantity {
+  width: 2rem;
 }
 
 .actions {

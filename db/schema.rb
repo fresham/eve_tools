@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_07_16_154337) do
+ActiveRecord::Schema.define(version: 2019_07_18_043232) do
 
   create_table "agtAgentTypes", primary_key: "agentTypeID", force: :cascade do |t|
     t.string "agentType", limit: 50
@@ -807,6 +807,22 @@ ActiveRecord::Schema.define(version: 2019_07_16_154337) do
     t.index ["regionID"], name: "ix_staStations_regionID"
     t.index ["solarSystemID"], name: "ix_staStations_solarSystemID"
     t.index ["stationTypeID"], name: "ix_staStations_stationTypeID"
+  end
+
+  create_table "staged_fittings", force: :cascade do |t|
+    t.integer "target_quantity"
+    t.integer "staging_id"
+    t.integer "fitting_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["fitting_id"], name: "index_staged_fittings_on_fitting_id"
+    t.index ["staging_id"], name: "index_staged_fittings_on_staging_id"
+  end
+
+  create_table "stagings", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "translationTables", primary_key: ["sourceTable", "translatedKey"], force: :cascade do |t|

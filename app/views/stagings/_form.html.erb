@@ -1,0 +1,43 @@
+<%= form_with(model: staging, local: true) do |form| %>
+  <% if staging.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(staging.errors.count, "error") %> prohibited this staging from being saved:</h2>
+
+      <ul>
+      <% staging.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+
+  <table class="staged-fittings">
+    <thead>
+      <tr>
+        <th>Fitting</th>
+        <th>Target</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% staging.staged_fittings.each do |staged_fitting| %>
+        <% if staged_fitting.fitting.present? %>
+          <%= form.fields_for 'staged_fittings', staged_fitting do |staged_fitting_fields| %>
+            <tr>
+              <%= staged_fitting_fields.hidden_field :id %>
+              <%= staged_fitting_fields.hidden_field :fitting_id %>
+              <td><%= link_to staged_fitting.fitting.name, staged_fitting.fitting, target: '_blank' %></td>
+              <td><%= staged_fitting_fields.number_field :target_quantity, class: 'staged-fitting-quantity' %></td>
+            </tr>
+          <% end %>
+        <% end %>
+      <% end %>
+    </tbody>
+  </table>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,4 +1,8 @@
 FactoryBot.define do
+  factory :staging do
+    name { "Jita" }
+  end
+
   factory :inventory_type do
     typeName { 'Sensor Booster II' }
     group
