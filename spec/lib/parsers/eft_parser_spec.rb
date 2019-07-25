@@ -2,16 +2,16 @@ require 'rails_helper'
 require 'parsers/eft_parser'
 
 RSpec.describe Parsers::EftParser do
+  let(:fitting_text) { file_fixture('eft_fittings/tristan.txt').read }
+
   describe '.parse' do
     subject { described_class.parse(fitting_text) }
 
     context 'when given a full, valid fitting' do
-      let(:fitting_text) { file_fixture('eft_fittings/tristan.txt').read }
-
       it 'returns a list of items in the fit with quantity' do
         expect(subject[:name]).to eq('Full Fit')
         expect(subject[:items]).to include(
-          'Tristan' => 1,
+          'Tristan' => { quantity: 1, location: :hull },
           'Drone Damage Amplifier II' => 1,
           'Overdrive Injector System II' => 1,
           'Micro Auxiliary Power Core I' => 1,
@@ -117,4 +117,47 @@ RSpec.describe Parsers::EftParser do
       end
     end
   end
+
+  describe '.read_sections' do
+    subject { described_class.read_sections(fitting_text) }
+
+    it 'returns an array of sections' do
+      expect(subject).to contain_exactly(
+        [
+          module_hash(name: 'Drone Damage Amplifier II'),
+          module_hash(name: 'Overdrive Injector System II'),
+          module_hash(name: 'Micro Auxiliary Power Core I'),
+          module_hash(name: '5MN Y-T8 Compact Microwarpdrive'),
+          module_hash(name: 'Adaptive Invulnerability Field II'),
+          module_hash(name: 'Medium Shield Extender II'),
+          module_hash(name: 'Entosis Link I'),
+          module_hash(name: '75mm Gatling Rail II'),
+          module_hash(name: '75mm Gatling Rail II'),
+          module_hash(name: 'Small Core Defense Field Extender I'),
+          module_hash(name: 'Small Core Defense Field Extender I'),
+          module_hash(name: 'Small Polycarbon Engine Housing I')
+        ],
+        [
+          drone_cargo_hash(name: 'Hornet EC-300', quantity: 3),
+          drone_cargo_hash(name: 'Warrior II', quantity: 5)
+        ],
+        [
+          module_hash(name: "Eifyr and Co. 'Rogue' Navigation NN-601"),
+          module_hash(name: 'Standard Frentix Booster')
+        ],
+        [
+          drone_cargo_hash(name: 'Caldari Navy Lead Charge S', quantity: 400),
+          drone_cargo_hash(name: 'Strontium Clathrates', quantity: 35)
+        ]
+      )
+    end
+  end
+end
+
+def module_hash(attributes)
+  { name: nil, charge: nil, offline: nil, mutation: nil }.merge(attributes)
+end
+
+def drone_cargo_hash(attributes)
+  { name: nil, quantity: nil }.merge(attributes)
 end
