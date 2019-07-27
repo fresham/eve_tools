@@ -25,5 +25,6 @@ FactoryBot.define do
   factory :fitting do
     name { 'Tristan' }
     doctrine
+    association :ship, factory: :inventory_type
   end
 end

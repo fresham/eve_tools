@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_07_18_043232) do
+ActiveRecord::Schema.define(version: 2019_07_27_011100) do
 
   create_table "agtAgentTypes", primary_key: "agentTypeID", force: :cascade do |t|
     t.string "agentType", limit: 50
@@ -287,7 +287,9 @@ ActiveRecord::Schema.define(version: 2019_07_18_043232) do
     t.integer "doctrine_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "ship_id"
     t.index ["doctrine_id"], name: "index_fittings_on_doctrine_id"
+    t.index ["ship_id"], name: "index_fittings_on_ship_id"
   end
 
   create_table "industryActivity", primary_key: ["typeID", "activityID"], force: :cascade do |t|
