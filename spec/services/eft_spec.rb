@@ -1,10 +1,76 @@
 require 'rails_helper'
 
+RSpec.shared_examples 'fitting attributes' do
+  it 'populates the fitting name' do
+    expect(subject.name).to eq(fitting_name)
+  end
+
+  it 'matches and sets ship type' do
+    expect(subject.ship).to eq(tristan)
+  end
+
+  it 'sets low slots for the fit' do
+    subject.save
+    expect(subject.fitting_items.find_by(inventory_type: dcu, slot: 'Low Slot').quantity).to eq(1)
+    expect(subject.fitting_items.find_by(inventory_type: dda, slot: 'Low Slot').quantity).to eq(1)
+    expect(subject.fitting_items.find_by(inventory_type: saar, slot: 'Low Slot').quantity).to eq(1)
+  end
+
+  it 'sets mid slots for the fit' do
+    subject.save
+    expect(subject.fitting_items.find_by(inventory_type: ab, slot: 'Mid Slot').quantity).to eq(1)
+    expect(subject.fitting_items.find_by(inventory_type: scram, slot: 'Mid Slot').quantity).to eq(1)
+    expect(subject.fitting_items.find_by(inventory_type: web, slot: 'Mid Slot').quantity).to eq(1)
+  end
+
+  it 'sets high slots for the fit' do
+    subject.save
+    expect(subject.fitting_items.find_by(inventory_type: blaster, slot: 'High Slot').quantity).to eq(2)
+    expect(subject.fitting_items.find_by(inventory_type: neut, slot: 'High Slot').quantity).to eq(1)
+  end
+
+  it 'sets rig slots for the fit' do
+    subject.save
+    expect(subject.fitting_items.find_by(inventory_type: anti_explosive_pump, slot: 'Rig Slot').quantity).to eq(1)
+    expect(subject.fitting_items.find_by(inventory_type: transverse_bulkhead, slot: 'Rig Slot').quantity).to eq(2)
+  end
+
+  it 'sets drone bay for the fit' do
+    subject.save
+    expect(subject.fitting_items.find_by(inventory_type: warrior, slot: 'Drone Bay').quantity).to eq(5)
+  end
+
+  it 'sets cargo bay for the fit' do
+    subject.save
+    expect(subject.fitting_items.find_by(inventory_type: null, slot: 'Cargo Bay').quantity).to eq(1600)
+    expect(subject.fitting_items.find_by(inventory_type: void, slot: 'Cargo Bay').quantity).to eq(1600)
+    expect(subject.fitting_items.find_by(inventory_type: nanite, slot: 'Cargo Bay').quantity).to eq(50)
+  end
+
+  context 'with a bad header' do
+    let(:fitting_text) { "[BAD HEADER]\n" + tristan_fitting_text }
+
+    it 'throws an error' do
+      expect { subject }.to raise_error(RuntimeError, 'Invalid EFT header')
+    end
+  end
+
+  context 'with a ship not matchable in database' do
+    let(:fitting_text) { "[UNKNOWN, BAD FIT]\n" + tristan_fitting_text }
+
+    it 'throws an error' do
+      expect { subject }.to raise_error(RuntimeError, 'Unknown ship type: `UNKNOWN`')
+    end
+  end
+end
+
 RSpec.describe EFT do
   describe '.import_fitting' do
     subject { EFT.import_fitting(fitting_text) }
+
     let(:fitting_text) { tristan_fitting_text }
     let(:tristan_fitting_text) { file_fixture('eft_fittings/tristan.txt').read }
+    let(:fitting_name) { 'Solo Example' }
 
     let!(:tristan) { create(:inventory_type, typeName: 'Tristan') }
     let!(:dcu) { create(:inventory_type, typeName: 'Damage Control II') }
@@ -47,66 +113,14 @@ RSpec.describe EFT do
       transverse_bulkhead.dogma_type_effects.create(dogma_effect: rig_slot_effect)
     end
 
-    it 'populates the fitting name' do
-      expect(subject.name).to eq('Solo Example')
+    context 'with a normal fitting' do
+      include_examples 'fitting attributes'
     end
 
-    it 'matches and sets ship type' do
-      expect(subject.ship).to eq(tristan)
-    end
-
-    it 'sets low slots for the fit' do
-      subject.save
-      expect(subject.fitting_items.find_by(inventory_type: dcu, slot: 'Low Slot').quantity).to eq(1)
-      expect(subject.fitting_items.find_by(inventory_type: dda, slot: 'Low Slot').quantity).to eq(1)
-      expect(subject.fitting_items.find_by(inventory_type: saar, slot: 'Low Slot').quantity).to eq(1)
-    end
-
-    it 'sets mid slots for the fit' do
-      subject.save
-      expect(subject.fitting_items.find_by(inventory_type: ab, slot: 'Mid Slot').quantity).to eq(1)
-      expect(subject.fitting_items.find_by(inventory_type: scram, slot: 'Mid Slot').quantity).to eq(1)
-      expect(subject.fitting_items.find_by(inventory_type: web, slot: 'Mid Slot').quantity).to eq(1)
-    end
-
-    it 'sets high slots for the fit' do
-      subject.save
-      expect(subject.fitting_items.find_by(inventory_type: blaster, slot: 'High Slot').quantity).to eq(2)
-      expect(subject.fitting_items.find_by(inventory_type: neut, slot: 'High Slot').quantity).to eq(1)
-    end
-
-    it 'sets rig slots for the fit' do
-      subject.save
-      expect(subject.fitting_items.find_by(inventory_type: anti_explosive_pump, slot: 'Rig Slot').quantity).to eq(1)
-      expect(subject.fitting_items.find_by(inventory_type: transverse_bulkhead, slot: 'Rig Slot').quantity).to eq(2)
-    end
-
-    it 'sets drone bay for the fit' do
-      subject.save
-      expect(subject.fitting_items.find_by(inventory_type: warrior, slot: 'Drone Bay').quantity).to eq(5)
-    end
-
-    it 'sets cargo bay for the fit' do
-      subject.save
-      expect(subject.fitting_items.find_by(inventory_type: null, slot: 'Cargo Bay').quantity).to eq(1600)
-      expect(subject.fitting_items.find_by(inventory_type: void, slot: 'Cargo Bay').quantity).to eq(1600)
-      expect(subject.fitting_items.find_by(inventory_type: nanite, slot: 'Cargo Bay').quantity).to eq(50)
-    end
-
-    context 'with a bad header' do
-      let(:fitting_text) { "[BAD HEADER]\n" + tristan_fitting_text }
-
-      it 'throws an error' do
-        expect { subject }.to raise_error(RuntimeError, 'Invalid EFT header')
-      end
-    end
-
-    context 'with a ship not matchable in database' do
-      let(:fitting_text) { "[UNKNOWN, BAD FIT]\n" + tristan_fitting_text }
-
-      it 'throws an error' do
-        expect { subject }.to raise_error(RuntimeError, 'Unknown ship type: `UNKNOWN`')
-      end
+    context 'with a fitting from Windows copy/paste with carriage returns' do
+      let(:fitting_text) { file_fixture('eft_fittings/tristan_windows.txt').read }
+      let(:fitting_name) { 'Windows Example' }
+      include_examples 'fitting attributes'
     end
   end
 end

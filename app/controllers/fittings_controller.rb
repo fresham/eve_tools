@@ -19,7 +19,9 @@ class FittingsController < ApplicationController
   end
 
   def create
-    @fitting = Fitting.new(fitting_params)
+    @fitting = EFT.import_fitting(fitting_params[:original_text])
+    @fitting.assign_attributes fitting_params
+    @doctrines = Doctrine.all
 
     FittingProcessor.populate_fitting_data(@fitting, @fitting.original_text)
 
@@ -35,6 +37,8 @@ class FittingsController < ApplicationController
   end
 
   def update
+    @doctrines = Doctrine.all
+
     respond_to do |format|
       if @fitting.update(fitting_params)
         FittingProcessor.populate_fitting_data(@fitting, @fitting.original_text)
