@@ -21,7 +21,7 @@ module EFT
 
     sections = normalized_text.split(/\n\n\n?/)
     sections.each do |section|
-      section_items = {}
+      section_items = []
       slot_types = Set.new
 
       section.each_line do |line|
@@ -31,18 +31,16 @@ module EFT
           mod = InventoryType.find_by(typeName: match[:name])
           raise "Cannot find module `#{match[:name]}`" if mod.blank?
           slot_types.add(mod.fitting_slot)
-          section_items[mod.id] ||= { quantity: 0, fitted: false }
-          section_items[mod.id][:quantity] += match[:quantity].to_i || 1
+          section_items << { type_id: mod.id, quantity: match[:quantity].to_i || 1, fitted: false }
         elsif match = line.match(MODULE_PATTERN)
           mod = InventoryType.find_by(typeName: match[:name])
           raise "Cannot find module `#{match[:name]}`" if mod.blank?
           slot_types.add(mod.fitting_slot)
-          section_items[mod.id] ||= { quantity: 0, fitted: true }
-          section_items[mod.id][:quantity] += 1
+          section_items << { type_id: mod.id, quantity: 1, fitted: true }
         end
       end
 
-      slot = if section_items.values.all? { |i| i[:fitted] }
+      slot = if section_items.all? { |i| i[:fitted] }
         if slot_types == Set['Low Slot']
           'Low Slot'
         elsif slot_types == Set['Mid Slot']
@@ -60,8 +58,8 @@ module EFT
         end
       end
 
-      section_items.each do |type_id, item|
-        fitting.fitting_items.build(inventory_type_id: type_id, slot: slot, quantity: item[:quantity])
+      section_items.each do |item|
+        fitting.fitting_items.build(inventory_type_id: item[:type_id], slot: slot, quantity: item[:quantity])
       end
 
     end

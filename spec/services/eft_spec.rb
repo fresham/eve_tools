@@ -25,14 +25,16 @@ RSpec.shared_examples 'fitting attributes' do
 
   it 'sets high slots for the fit' do
     subject.save
-    expect(subject.fitting_items.find_by(inventory_type: blaster, slot: 'High Slot').quantity).to eq(2)
+    expect(subject.fitting_items.find_by(inventory_type: blaster, slot: 'High Slot').quantity).to eq(1)
+    expect(subject.fitting_items.where(inventory_type: blaster, slot: 'High Slot').count).to eq(2)
     expect(subject.fitting_items.find_by(inventory_type: neut, slot: 'High Slot').quantity).to eq(1)
   end
 
   it 'sets rig slots for the fit' do
     subject.save
     expect(subject.fitting_items.find_by(inventory_type: anti_explosive_pump, slot: 'Rig Slot').quantity).to eq(1)
-    expect(subject.fitting_items.find_by(inventory_type: transverse_bulkhead, slot: 'Rig Slot').quantity).to eq(2)
+    expect(subject.fitting_items.find_by(inventory_type: transverse_bulkhead, slot: 'Rig Slot').quantity).to eq(1)
+    expect(subject.fitting_items.where(inventory_type: transverse_bulkhead, slot: 'Rig Slot').count).to eq(2)
   end
 
   it 'sets drone bay for the fit' do
