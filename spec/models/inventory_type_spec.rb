@@ -39,8 +39,8 @@ RSpec.describe InventoryType, type: :model do
     end
   end
 
-  describe '#slot' do
-    subject { inventory_type.slot }
+  describe '#fitting_slot' do
+    subject { inventory_type.fitting_slot }
     let(:inventory_type) { create(:inventory_type, typeName: 'Drone Damage Amplifier II') }
     let(:dogma_effect) { create(:dogma_effect) }
     before(:example) { inventory_type.dogma_type_effects.create dogma_effect: dogma_effect }
@@ -49,8 +49,8 @@ RSpec.describe InventoryType, type: :model do
       expect(subject).to eq(nil)
     end
 
-    context 'with a loSlot DogmaEffect' do
-      let(:dogma_effect) { create(:dogma_effect, effectName: 'loSlot') }
+    context 'with a loPower DogmaEffect' do
+      let(:dogma_effect) { create(:dogma_effect, effectName: 'loPower') }
 
       it 'returns `Low Slot`' do
         expect(subject).to eq('Low Slot')

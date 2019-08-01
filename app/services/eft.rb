@@ -30,13 +30,13 @@ module EFT
         elsif match = line.match(DRONE_CARGO_PATTERN)
           mod = InventoryType.find_by(typeName: match[:name])
           raise "Cannot find module `#{match[:name]}`" if mod.blank?
-          slot_types.add(mod.slot)
+          slot_types.add(mod.fitting_slot)
           section_items[mod.id] ||= { quantity: 0, fitted: false }
           section_items[mod.id][:quantity] += match[:quantity].to_i || 1
         elsif match = line.match(MODULE_PATTERN)
           mod = InventoryType.find_by(typeName: match[:name])
           raise "Cannot find module `#{match[:name]}`" if mod.blank?
-          slot_types.add(mod.slot)
+          slot_types.add(mod.fitting_slot)
           section_items[mod.id] ||= { quantity: 0, fitted: true }
           section_items[mod.id][:quantity] += 1
         end
@@ -63,12 +63,9 @@ module EFT
       section_items.each do |type_id, item|
         fitting.fitting_items.build(inventory_type_id: type_id, slot: slot, quantity: item[:quantity])
       end
+
     end
 
     fitting
-  end
-
-  def self.parse_header(fitting_text)
-    match = fitting_text.each_line.first.match(HEADER_PATTERN)
   end
 end

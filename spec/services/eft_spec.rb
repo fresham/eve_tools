@@ -92,7 +92,7 @@ RSpec.describe EFT do
     let!(:void) { create(:inventory_type, typeName: 'Void S') }
     let!(:nanite) { create(:inventory_type, typeName: 'Nanite Repair Paste') }
 
-    let(:low_slot_effect) { create(:dogma_effect, effectName: 'loSlot') }
+    let(:low_slot_effect) { create(:dogma_effect, effectName: 'loPower') }
     let(:mid_slot_effect) { create(:dogma_effect, effectName: 'medPower') }
     let(:high_slot_effect) { create(:dogma_effect, effectName: 'hiPower') }
     let(:rig_slot_effect) { create(:dogma_effect, effectName: 'rigSlot') }

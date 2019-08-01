@@ -23,8 +23,6 @@ class FittingsController < ApplicationController
     @fitting.assign_attributes fitting_params
     @doctrines = Doctrine.all
 
-    FittingProcessor.populate_fitting_data(@fitting, @fitting.original_text)
-
     respond_to do |format|
       if @fitting.save
         format.html { redirect_to @fitting, notice: 'Fitting was successfully created.' }
@@ -41,7 +39,6 @@ class FittingsController < ApplicationController
 
     respond_to do |format|
       if @fitting.update(fitting_params)
-        FittingProcessor.populate_fitting_data(@fitting, @fitting.original_text)
         format.html { redirect_to @fitting, notice: 'Fitting was successfully updated.' }
         format.json { render :show, status: :ok, location: @fitting }
       else

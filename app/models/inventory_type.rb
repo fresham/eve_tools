@@ -28,10 +28,9 @@ class InventoryType < ApplicationRecord
     end
   end
 
-  # TODO: change to `#fitting_slot`
-  def slot
+  def fitting_slot
     slot_map = {
-      'loSlot' => 'Low Slot',
+      'loPower' => 'Low Slot',
       'medPower' => 'Mid Slot',
       'hiPower' => 'High Slot',
       'rigSlot' => 'Rig Slot',
