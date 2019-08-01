@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_07_27_011100) do
+ActiveRecord::Schema.define(version: 2019_07_28_021737) do
 
   create_table "agtAgentTypes", primary_key: "agentTypeID", force: :cascade do |t|
     t.string "agentType", limit: 50
@@ -277,6 +277,7 @@ ActiveRecord::Schema.define(version: 2019_07_27_011100) do
     t.integer "quantity"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "slot"
     t.index ["fitting_id"], name: "index_fitting_items_on_fitting_id"
     t.index ["inventory_type_id"], name: "index_fitting_items_on_inventory_type_id"
   end

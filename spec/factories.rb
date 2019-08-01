@@ -16,6 +16,11 @@ FactoryBot.define do
 
   factory :group do
     groupName { 'Sensor Booster' }
+    category
+  end
+
+  factory :category do
+    categoryName { 'Module' }
   end
 
   factory :doctrine do
@@ -26,5 +31,20 @@ FactoryBot.define do
     name { 'Tristan' }
     doctrine
     association :ship, factory: :inventory_type
+  end
+
+  factory :fitting_item do
+    quantity { 1 }
+    fitting
+    inventory_type
+  end
+
+  factory :dogma_effect do
+    effectName { 'effectName' }
+  end
+
+  factory :dogma_type_effect do
+    dogma_effect
+    inventory_type
   end
 end

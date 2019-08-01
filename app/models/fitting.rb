@@ -8,4 +8,6 @@ class Fitting < ApplicationRecord
 
   validates :ship, presence: true
   validates :name, presence: true
+
+  delegate :low_slots, :mid_slots, to: :fitting_items
 end
