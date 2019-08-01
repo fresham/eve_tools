@@ -84,7 +84,13 @@ RSpec.describe EFT do
     it 'sets drone bay for the fit' do
       subject.save
       expect(subject.fitting_items.find_by(inventory_type: warrior, slot: 'Drone Bay').quantity).to eq(5)
-      binding.pry
+    end
+
+    it 'sets cargo bay for the fit' do
+      subject.save
+      expect(subject.fitting_items.find_by(inventory_type: null, slot: 'Cargo Bay').quantity).to eq(1600)
+      expect(subject.fitting_items.find_by(inventory_type: void, slot: 'Cargo Bay').quantity).to eq(1600)
+      expect(subject.fitting_items.find_by(inventory_type: nanite, slot: 'Cargo Bay').quantity).to eq(50)
     end
 
     context 'with a bad header' do
