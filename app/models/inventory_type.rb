@@ -44,4 +44,35 @@ class InventoryType < ApplicationRecord
       'Drone Bay'
     end
   end
+
+  def low_slots
+    dogma_type_attribute = find_dogma_type_attribute_by_name('lowSlots')
+    return 0 if dogma_type_attribute.blank?
+    (dogma_type_attribute.valueFloat || dogma_type_attribute.valueInt).to_i
+  end
+
+  def mid_slots
+    dogma_type_attribute = find_dogma_type_attribute_by_name('medSlots')
+    return 0 if dogma_type_attribute.blank?
+    (dogma_type_attribute.valueFloat || dogma_type_attribute.valueInt).to_i
+  end
+
+  def high_slots
+    dogma_type_attribute = find_dogma_type_attribute_by_name('hiSlots')
+    return 0 if dogma_type_attribute.blank?
+    (dogma_type_attribute.valueFloat || dogma_type_attribute.valueInt).to_i
+  end
+
+  def rig_slots
+    dogma_type_attribute = find_dogma_type_attribute_by_name('rigSlots')
+    return 0 if dogma_type_attribute.blank?
+    (dogma_type_attribute.valueFloat || dogma_type_attribute.valueInt).to_i
+  end
+
+  private
+
+  def find_dogma_type_attribute_by_name(name)
+    dogma_type_attributes.includes(:dogma_attribute).find_by(dgmAttributeTypes: { attributeName: name })
+
+  end
 end

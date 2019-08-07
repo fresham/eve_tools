@@ -84,4 +84,92 @@ RSpec.describe InventoryType, type: :model do
       end
     end
   end
+
+  describe 'fitting attribute methods' do
+    let(:inventory_type) { create(:inventory_type) }
+
+    before(:example) do
+      inventory_type.dogma_type_attributes.create dogma_attribute: dogma_attribute, valueFloat: 3.0
+    end
+
+    describe '#low_slots' do
+      subject { inventory_type.low_slots }
+
+      context 'without a `lowSlots` DogmaTypeAttribute' do
+        let(:dogma_attribute) { nil }
+
+        it 'returns 0' do
+            expect(subject).to eq(0)
+        end
+      end
+
+      context 'with a `lowSlots` DogmaTypeAttribute value' do
+        let(:dogma_attribute) { create(:dogma_attribute, attributeName: 'lowSlots') }
+
+        it 'returns the value as an integer' do
+          expect(subject).to eq(3)
+        end
+      end
+    end
+
+    describe '#mid_slots' do
+      subject { inventory_type.mid_slots }
+
+      context 'without a `medSlots` DogmaTypeAttribute' do
+        let(:dogma_attribute) { nil }
+
+        it 'returns 0' do
+            expect(subject).to eq(0)
+        end
+      end
+
+      context 'with a `medSlots` DogmaTypeAttribute value' do
+        let(:dogma_attribute) { create(:dogma_attribute, attributeName: 'medSlots') }
+
+        it 'returns the value as an integer' do
+          expect(subject).to eq(3)
+        end
+      end
+    end
+
+    describe '#high_slots' do
+      subject { inventory_type.high_slots }
+
+      context 'without a `hiSlots` DogmaTypeAttribute' do
+        let(:dogma_attribute) { nil }
+
+        it 'returns 0' do
+            expect(subject).to eq(0)
+        end
+      end
+
+      context 'with a `hiSlots` DogmaTypeAttribute value' do
+        let(:dogma_attribute) { create(:dogma_attribute, attributeName: 'hiSlots') }
+
+        it 'returns the value as an integer' do
+          expect(subject).to eq(3)
+        end
+      end
+    end
+
+    describe '#rig_slots' do
+      subject { inventory_type.rig_slots }
+
+      context 'without a `rigSlots` DogmaTypeAttribute' do
+        let(:dogma_attribute) { nil }
+
+        it 'returns 0' do
+            expect(subject).to eq(0)
+        end
+      end
+
+      context 'with a `rigSlots` DogmaTypeAttribute value' do
+        let(:dogma_attribute) { create(:dogma_attribute, attributeName: 'rigSlots') }
+
+        it 'returns the value as an integer' do
+          expect(subject).to eq(3)
+        end
+      end
+    end
+  end
 end

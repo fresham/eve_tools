@@ -2,15 +2,15 @@
 
 Damage Control II
 Drone Damage Amplifier II
-Small Ancillary Armor Repairer, Nanite Repair Paste
+Small Ancillary Armor Repairer
 
 1MN Afterburner II
 Fleeting Compact Stasis Webifier
 Initiated Compact Warp Scrambler
 
-Light Neutron Blaster II, Null S
+Light Neutron Blaster II
 Small Gremlin Compact Energy Neutralizer
-Light Neutron Blaster II, Null S
+Light Neutron Blaster II
 
 Small Anti-Explosive Pump I
 Small Transverse Bulkhead I

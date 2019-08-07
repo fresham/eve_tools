@@ -39,6 +39,10 @@ FactoryBot.define do
     inventory_type
   end
 
+  factory :dogma_attribute do
+    attributeName { 'attributeName' }
+  end
+
   factory :dogma_effect do
     effectName { 'effectName' }
   end
