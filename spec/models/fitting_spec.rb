@@ -75,12 +75,15 @@ RSpec.describe Fitting, type: :model do
       it 'returns an eft_block in original order by default' do
         expect(subject).to eq(tristan_text.strip)
       end
-    end
 
-    context 'with `sorted` option' do
-      subject { tristan_fitting.eft_block(sorted: true) }
+      context 'with `sorted` option' do
+        subject { tristan_fitting.eft_block(sorted: true) }
+        let!(:tristan_fitting) { create(:fitting, ship: tristan, name: 'Sorted') }
+        let(:sorted_tristan_text) { file_fixture('eft_fittings/tristan_sorted.txt').read }
 
-      it 'returns an eft_block with sorting' do
+        xit 'returns an eft_block with sorting' do
+          expect(subject).to eq(sorted_tristan_text.strip)
+        end
       end
     end
   end

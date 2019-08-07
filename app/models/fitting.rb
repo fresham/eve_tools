@@ -11,10 +11,18 @@ class Fitting < ApplicationRecord
 
   delegate :low_slots, :mid_slots, :high_slots, :rig_slots, :drones, :cargo, to: :fitting_items
 
-  def eft_block
-    fitted_sections = [eft_header, eft_lows_section, eft_mids_section, eft_highs_section, eft_rigs_section ]
-
-    [fitted_sections.join("\n\n"), eft_drone_bay_section, eft_cargo_bay_section].compact.join("\n\n\n")
+  def eft_block(sorted: false)
+    [
+      [
+        eft_header,
+        eft_fitted_section(low_slots, ship.low_slots, '[Empty Low slot]', sorted),
+        eft_fitted_section(mid_slots, ship.mid_slots, '[Empty Med slot]', sorted),
+        eft_fitted_section(high_slots, ship.high_slots, '[Empty High slot]', sorted),
+        eft_fitted_section(rig_slots, ship.rig_slots, '[Empty Rig slot]', sorted)
+      ].join("\n\n"),
+      eft_cargo_section(drones, sorted),
+      eft_cargo_section(cargo, sorted),
+    ].compact.join("\n\n\n")
   end
 
   private
@@ -23,33 +31,16 @@ class Fitting < ApplicationRecord
     "[#{ship.typeName}, #{name}]"
   end
 
-  def eft_lows_section
-    low_slots.joins(:inventory_type).pluck('invTypes.typeName')
-        .fill('[Empty Low slot]', low_slots.length...ship.low_slots).join("\n")
+  def eft_fitted_section(fitting_items, number_of_slots, stub_text, sorted=false)
+    sort_order = sorted ? 'invTypes.typeName' : :created_at
+    fitting_items.joins(:inventory_type).order(sort_order).pluck('invTypes.typeName')
+        .fill(stub_text, fitting_items.length...number_of_slots).join("\n")
   end
 
-  def eft_mids_section
-    mid_slots.joins(:inventory_type).pluck('invTypes.typeName')
-        .fill('[Empty Med slot]', mid_slots.length...ship.mid_slots).join("\n")
-  end
-
-  def eft_highs_section
-    high_slots.joins(:inventory_type).pluck('invTypes.typeName')
-        .fill('[Empty High slot]', high_slots.length...ship.high_slots).join("\n")
-  end
-
-  def eft_rigs_section
-    rig_slots.joins(:inventory_type).pluck('invTypes.typeName')
-        .fill('[Empty Rig slot]', rig_slots.length...ship.rig_slots).join("\n")
-  end
-
-  def eft_drone_bay_section
-    return nil if drones.blank?
-    drones.includes(:inventory_type).map { |item| "#{item.inventory_type.typeName} x#{item.quantity}"}.join("\n")
-  end
-
-  def eft_cargo_bay_section
-    return nil if cargo.blank?
-    cargo.includes(:inventory_type).map { |item| "#{item.inventory_type.typeName} x#{item.quantity}"}.join("\n")
+  def eft_cargo_section(fitting_items, sorted=false)
+    return nil if fitting_items.blank?
+    sort_order = sorted ? 'invTypes.typeName' : :created_at
+    fitting_items.includes(:inventory_type).order(sort_order)
+        .map { |item| "#{item.inventory_type.typeName} x#{item.quantity}"}.join("\n")
   end
 end
